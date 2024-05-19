@@ -9,7 +9,7 @@ que eres determinado por tu dia y mes de nacimiento.*
 2. Ingresas tu dia y mes de nacimiento y lo confirmas.
 3. En pantalla podras ver quien es tu ~~verdadero ~~ser personaje de videojuegos.
 
-###Tecnologias Usadas:
+### Tecnologias Usadas:
 
 - Markdown
 - Git Branch
@@ -20,4 +20,4 @@ que eres determinado por tu dia y mes de nacimiento.*
 
 
 
-####Desarrollado por: Hernandez Juan y Cuello Pizarro Ismael.
+#### Desarrollado por: Hernandez Juan y Cuello Pizarro Ismael.
