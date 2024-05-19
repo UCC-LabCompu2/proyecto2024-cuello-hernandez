@@ -18,7 +18,7 @@ que eres determinado por tu dia y mes de nacimiento.*
 - HTML5
 - CSS3
 
-Link de la pagina :
+## Link al sitio: [Horoscopo Gamer] (http://localhost:63342/Proyecto/index.html?_ijt=65gjh71e4nbj3r7pim5hpt5biu&_ij_reload=RELOAD_ON_SAVE).
 
 
 
