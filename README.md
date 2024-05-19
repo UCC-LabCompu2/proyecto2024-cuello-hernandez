@@ -20,4 +20,4 @@ que eres determinado por tu dia y mes de nacimiento.*
 
 
 
-#### *Desarrollado por: Hernandez Juan y Cuello Pizarro Ismael.
+ *Desarrollado por: Hernandez Juan y Cuello Pizarro Ismael.
