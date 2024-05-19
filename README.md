@@ -7,7 +7,7 @@ que eres determinado por tu dia y mes de nacimiento.*
 
 1. Presionas el boton continuar para embarcarte en este emocionante viaje!.
 2. Ingresas tu dia y mes de nacimiento y lo confirmas.
-3. En pantalla podras ver quien es tu ~~verdadero ~~ser personaje de videojuegos.
+3. En pantalla podras ver quien es tu ~~verdadero~~ ~~ser~~ personaje de videojuegos.
 
 ## Tecnologias Usadas: ##
 
@@ -15,8 +15,10 @@ que eres determinado por tu dia y mes de nacimiento.*
 - Git Branch
 - Code Rewiew
 - Maquetas: Diagramas de presentacion
-- HTML
-- CSS
+- HTML5
+- CSS3
+
+Link de la pagina :
 
 
 
