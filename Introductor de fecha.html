@@ -10,49 +10,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
     <link rel="icon" href="imagenes%20horoscopo/favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <style>
-        .poetsen-one-regular {
-            font-family: "Poetsen One", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        body{
-            text-align: center;
-            background-image: linear-gradient(blueviolet,hotpink);
-        }
         div{
             margin-top: 100px;
            margin-bottom: 380px;
         }
-        .boton{
-            margin-top: 50px;
-        }
+
     </style>
 </head>
-<body style="font-family: Poetsen One, sans-serif">
-<header style="margin-top: 200px">
-    <h1>SELECCIONA TU FECHA DE NACIMIENTO</h1>
+<body>
+<header>
+    <h1 class="fecha">SELECCIONA TU FECHA DE NACIMIENTO</h1>
 
 </header>
 <main>
 <div>
 
-<label> DIA</label>
+<label > DIA</label>
 <input type="number" name="dia" max="31" min="1" step="" required="">
 <label> MES</label>
 <input type="number" name="mes" max="12" min="1" required="">
 <label> AÑO</label>
 <input type="number" name="año" max="2024" min="1900" required="">
-    <div class="boton" id="continuar">
+    <div>
      <a  href="">
-    <button style="font-size: 25px; background-color:blueviolet; border-radius: 25px">CONTINUAR</button>
+    <button class="boton" >CONTINUAR</button>
     </a>
     </div>
 </div>
 </main>
 <footer>
-    <h6 style="text-align:left ">@Diseñado por Hernandez Juan y Cuello ismael</h6>
+    <h6 class="piedepagina">@Diseñado por Hernandez Juan y Cuello ismael</h6>
 </footer>
 </body>
 </html>

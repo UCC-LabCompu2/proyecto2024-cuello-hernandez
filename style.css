@@ -1,1 +1,30 @@
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+*{
+    font-family: Poetsen One, sans-serif;
+    text-align: center;
+    background-image: linear-gradient(blueviolet,hotpink);
+    background-attachment: fixed;
+}
+.boton{
+
+    font-style: oblique;
+    font-size: 25px;
+    border-radius: 25px;
+}
+.fecha{
+    margin-top: 200px;
+}
+.titulo{
+    font-size: 70px;
+}
+.subtitulo{
+    font-size: 30px;
+}
+.piedepagina{
+    text-align:left;
+}
