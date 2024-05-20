@@ -39,8 +39,14 @@
     margin-bottom: 200px; text-align: center;
     float: right;
     font-size: 30px;
+    height:500px;
 
 }
 .texto{
     text-align: left; margin-left: 20px;margin-top: 200px;
 }
+
+.felicitaciones{
+    text-align: left;font-size: 50px;margin-left: 40px;
+}
+
