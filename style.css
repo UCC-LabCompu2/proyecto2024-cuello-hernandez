@@ -41,20 +41,26 @@
 .personajed{
     margin-bottom: 100px;
     text-align: center;
-    float: right;
-    font-size: 30px;
+
+    font-size: 40px;
 
 }
 .personaje{
     height:500px;
-    margin-top: 1px;
+    float: right;
+    margin-right: 150px;
+
+}
+.nombrepersonaje{
+    margin-left: 850px;
+    font-size: 50px;
 }
 .texto{
     text-align: left;
     font-size: 25px;
 }
 .textod{
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 200px;
     margin-bottom: 400px;
 }
@@ -63,11 +69,9 @@
     font-family: "Poetsen One", sans-serif ;
     text-align: left;
     margin-left: 40px;
-    font-size: 50px;
+    font-size: 70px;
 
 }
-.tipodep{
-    margin-top: 20px;
-}
+
 
 
