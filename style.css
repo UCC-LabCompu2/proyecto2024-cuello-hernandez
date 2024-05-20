@@ -59,11 +59,12 @@
     margin-bottom: 400px;
 }
 
-#felicitaciones{
+#felicitaciones, h4{
     font-family: "Poetsen One", sans-serif ;
     text-align: left;
-    font-size: 60px;
     margin-left: 40px;
+    font-size: 50px;
+
 }
 .tipodep{
     margin-top: 20px;
