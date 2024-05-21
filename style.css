@@ -10,13 +10,6 @@
     background-image: linear-gradient(blueviolet,hotpink);
     background-attachment: fixed;
 }
-.boton{
-
-    font-style: oblique;
-    font-size: 25px;
-    border-radius: 25px;
-
-}
 .fecha{
     margin-top: 200px;
 }
@@ -71,6 +64,18 @@
     margin-left: 40px;
     font-size: 70px;
 
+}
+a{
+    color: black;
+    font-size:25px;
+    text-decoration: none;
+}
+a:visited{
+  color: blueviolet;
+}
+a:hover{
+    color: darkorchid;
+    text-decoration: none;
 }
 
 
