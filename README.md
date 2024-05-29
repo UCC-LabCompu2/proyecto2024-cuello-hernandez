@@ -24,5 +24,5 @@ que eres determinado por tu día y mes de nacimiento.*
 
  | Hernandez Juan      | Cuello Pizarro Ismael |
  |---------------------|-----------------------|
- |23                   |        2306347        |
+ |2325917              |        2306347        |
  |ingenieria de sist   | ingenieria de sist    |
