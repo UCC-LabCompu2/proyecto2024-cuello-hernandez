@@ -1,5 +1,5 @@
 **# HORÓSCOPO GAMER**
- 
+
 *Horósocopo gamer es una pagína desarrollada con el fin de encontrar ese personaje del mundo de los videojuegos
 que eres determinado por tu día y mes de nacimiento.*
 
@@ -22,7 +22,7 @@ que eres determinado por tu día y mes de nacimiento.*
 
 **###desarrolladores:**
 
- | Hernandez Juan      | Cuello Pizarro Ismael |
- |---------------------|-----------------------|
- |2325917              |        2306347        |
- |ingenieria de sist   | ingenieria de sist    |
+| Hernandez Juan     | Cuello Pizarro Ismael |
+|--------------------|-----------------------|
+| 2325917            | 2306347               |
+| ingenieria de sist | ingenieria de sist    |
