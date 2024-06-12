@@ -9,11 +9,18 @@ function comprobarinputs() {
     let inputMes = document.getElementById('mes');
     let inputAno = document.getElementById('año');
 
-
-    let diavalido = !Number.isNaN(inputDia) || inputDia.value.trim() !== "";
-    let mesvalido = !Number.isNaN(inputMes) || inputMes.value.trim() !== "";
-    let anovalido = !Number.isNaN(inputAno) || inputAno.value.trim() !== "";
-
+    let diavalido;
+    if(Number.isNaN(inputDia) && inputDia.value.trim() === ""){
+        diavalido= true;
+    }
+    let mesvalido;
+    if(Number.isNaN(inputMes) && inputMes.value.trim() !== ""){
+        mesvalido=true;
+    }
+    let anovalido;
+    if(Number.isNaN(inputAno) && inputAno.value.trim() !== ""){
+        anovalido= true;
+    }
 
     if (diavalido && mesvalido && anovalido) {
         if (inputMes.value.trim() === 1) {
