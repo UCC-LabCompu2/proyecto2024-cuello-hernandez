@@ -1,7 +1,7 @@
 /**
  * La funcion sirve para comprobar que la fecha indicada sea valida y si esta es valida se lleva a la pestaña correspondiente
  * @comprobarinputs
- * preguntar a profe que iria bien aca :)
+ * (number) valor    El valor de los imputs segun el dia, mes y ano
  */
 function comprobarinputs() {
 
