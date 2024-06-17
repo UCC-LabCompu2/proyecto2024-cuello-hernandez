@@ -5,64 +5,52 @@
  */
 function comprobarinputs() {
 
-    let inputDia = document.getElementById('dia');
-    let inputMes = document.getElementById('mes');
-    let inputAno = document.getElementById('año');
+    const inputDia = document.getElementById('dia').value;
+    const inputMes = document.getElementById('mes').value;
+    const inputAno = document.getElementById('año').value;
 
-    let diavalido;
-    if(Number.isNaN(inputDia) && inputDia.value.trim() === ""){
-        diavalido= true;
-    }
-    let mesvalido;
-    if(Number.isNaN(inputMes) && inputMes.value.trim() !== ""){
-        mesvalido=true;
-    }
-    let anovalido;
-    if(Number.isNaN(inputAno) && inputAno.value.trim() !== ""){
-        anovalido= true;
-    }
+   if (isNaN(inputDia)|| isNaN(inputMes) || isNaN(inputAno) || inputDia<1 || inputDia>31|| inputMes<1|| inputMes>12 ||inputAno>2016|| inputAno<1924){
+       window.open("Error.html");
+   }else{
+       switch (inputMes){
+           case "1":
+               window.open("Horoscopo segun el mes/Enero.html");
+               break;
+           case "2":
+               window.open("Horoscopo segun el mes/Febrero.html");
+               break;
+           case "3":
+               window.open("Horoscopo segun el mes/Marzo.html");
+               break;
+           case "5":
+               window.open("Horoscopo segun el mes/Junio.html");
+               break;
+           case "6":
+               window.open("Horoscopo segun el mes/Junio.html");
+               break;
+           case "7":
+               window.open("Horoscopo segun el mes/Julio.html");
+               break;
+           case "8":
+               window.open("Horoscopo segun el mes/Agosto.html");
+               break;
+           case "9":
+               window.open("Horoscopo segun el mes/Septiembre.html");
+               break;
+           case "10":
+               window.open("Horoscopo segun el mes/Octubre.html");
+               break;
+           case "11":
+               window.open("Horoscopo segun el mes/Noviembre.html");
+               break;
+           case "12":
+               window.open("Horoscopo segun el mes/Diciembre.html");
 
-    if (diavalido && mesvalido && anovalido) {
-        if (inputMes.value.trim() === 1) {
-            window.location.href = "Horoscopo segun el mes/Enero.html";
-        }
-        if (inputMes.value.trim() === 2) {
-            window.location.href = "Horoscopo segun el mes/Febrero.html";
-        }
-        if (inputMes.value.trim() === 3) {
-            window.location.href = "Horoscopo segun el mes/Marzo.html";
-        }
-        if (inputMes.value.trim() === 4) {
-            window.location.href = "Horoscopo segun el mes/Abril.html";
-        }
-        if (inputMes.value.trim() === 5) {
-            window.location.href = "Horoscopo segun el mes/Mayo.html";
-        }
-        if (inputMes.value.trim() === 6) {
-            window.location.href = "Horoscopo segun el mes/Junio.html";
-        }
-        if (inputMes.value.trim() === 7) {
-            window.location.href = "Horoscopo segun el mes/Julio.html";
-        }
-        if (inputMes.value.trim() === 8) {
-            window.location.href = "Horoscopo segun el mes/Agosto.html";
-        }
-        if (inputMes.value.trim() === 9) {
-            window.location.href = "Horoscopo segun el mes/Septiembre.html";
-        }
-        if (inputMes.value.trim() === 10) {
-            window.location.href = "Horoscopo segun el mes/Octubre.html";
-        }
-        if (inputMes.value.trim() === 11) {
-            window.location.href = "Horoscopo segun el mes/Noviembre.html";
-        }
-        if (inputMes.value.trim() === 12) {
-            window.location.href = "Horoscopo segun el mes/Diciembre.html";
-        }
-    } else {
-        window.location.href = "Error.html";
-    }
+       }
+
+
+
+   }
 
 
 }
-    
