@@ -1,4 +1,4 @@
-# ** HORÓSCOPO GAMER**
+# **HORÓSCOPO GAMER**
 
 *Horósocopo gamer es una pagína desarrollada con el fin de encontrar ese personaje del mundo de los videojuegos
 que eres determinado por tu día y mes de nacimiento.*
