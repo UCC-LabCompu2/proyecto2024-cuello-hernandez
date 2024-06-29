@@ -2,7 +2,7 @@
      * La funcion sirve para comprobar que la fecha indicada sea valida y si esta es valida se lleva a la pestaña correspondiente
      * @method comprobarinputs
      */
-function comprobarinputs() {
+let comprobarinputs=() => {
 
     const inputDia = document.getElementById('dia').value;
     const inputMes = document.getElementById('mes').value;
@@ -58,15 +58,17 @@ function comprobarinputs() {
   */
 
 
-function dibujocanvas() {
-    const canvas = document.getElementById('Canvas');
-    const ctx = canvas.getContext('2d');
-    ctx.fillStyle = 'purple';
-    ctx.beginPath();
-    ctx.arc(100, 50, 50, 0, 2 * Math.PI);
-    ctx.fill();
-    ctx.closePath();
-}
+ let dibujocanvas =() =>{
+     const canvas = document.getElementById('Canvas');
+     const ctx = canvas.getContext('2d');
+     ctx.fillStyle = 'purple';
+     ctx.beginPath();
+     ctx.arc(100, 50, 50, 0, 2 * Math.PI);
+     ctx.fill();
+     ctx.closePath();
+
+ }
+
 
 
 
