@@ -1,15 +1,14 @@
-/**
- * La funcion sirve para comprobar que la fecha indicada sea valida y si esta es valida se lleva a la pestaña correspondiente
- * @comprobarinputs
- * (number) valor    El valor de los imputs segun el dia, mes y ano
- */
+ /**
+     * La funcion sirve para comprobar que la fecha indicada sea valida y si esta es valida se lleva a la pestaña correspondiente
+     * @method comprobarinputs
+     */
 function comprobarinputs() {
 
     const inputDia = document.getElementById('dia').value;
     const inputMes = document.getElementById('mes').value;
     const inputAno = document.getElementById('año').value;
 
-    if (isNaN(inputDia) || isNaN(inputMes) || isNaN(inputAno) || inputDia < 1 || inputDia > 31 || inputMes < 1 || inputMes > 12 || inputAno > 2016 || inputAno < 1900) {
+    if (isNaN(inputDia) || isNaN(inputMes) || isNaN(inputAno) || inputDia < 1 || inputDia > 31 || inputMes < 1 || inputMes > 12 || inputAno > 2016 || inputAno < 1924) {
         window.open("Error.html");
     } else {
         switch (inputMes) {
@@ -53,11 +52,10 @@ function comprobarinputs() {
 
 
 }
-
-/**
- *La funcion sirve para dibujar un circulo violeta con canvas
- * @dibujocanvas
- */
+ /**
+  *La funcion sirve para dibujar un circulo violeta con canvas
+  * @method dibujocanvas
+  */
 
 
 function dibujocanvas() {
