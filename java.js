@@ -9,7 +9,7 @@ function comprobarinputs() {
     const inputMes = document.getElementById('mes').value;
     const inputAno = document.getElementById('año').value;
 
-    if (isNaN(inputDia) || isNaN(inputMes) || isNaN(inputAno) || inputDia < 1 || inputDia > 31 || inputMes < 1 || inputMes > 12 || inputAno > 2016 || inputAno < 1924) {
+    if (isNaN(inputDia) || isNaN(inputMes) || isNaN(inputAno) || inputDia < 1 || inputDia > 31 || inputMes < 1 || inputMes > 12 || inputAno > 2016 || inputAno < 1900) {
         window.open("Error.html");
     } else {
         switch (inputMes) {

@@ -1,4 +1,14 @@
-**# HORÓSCOPO GAMER**
+# **HORÓSCOPO GAMER**
+
+
+- [Funcionamiento de la página](#Funcionamiento_de_la_pagina)
+
+- [Tecnologías Usadas](#Tecnologías_Usadas)
+
+- [Link al sitio](#Link_al_sitio)
+
+- [Desarrolladores](#Desarrolladores)
+
 
 *Horósocopo gamer es una pagína desarrollada con el fin de encontrar ese personaje del mundo de los videojuegos
 que eres determinado por tu día y mes de nacimiento.*
@@ -20,7 +30,7 @@ que eres determinado por tu día y mes de nacimiento.*
 
 ## Link al sitio: [Horóscopo Gamer](https://ucc-labcompu2.github.io/proyecto2024-cuello-hernandez/).
 
-**###desarrolladores:**
+### **Desarrolladores:**
 
 | Hernandez Juan     | Cuello Pizarro Ismael |
 |--------------------|-----------------------|
