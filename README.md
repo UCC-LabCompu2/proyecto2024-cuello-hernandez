@@ -3,11 +3,11 @@
 
 [Funcionamiento de la página] (#Funcionamiento de la pagina)
 
-[Tecnologías Usadas] (Tecnologías Usadas)
+[Tecnologías Usadas] (#Tecnologías Usadas)
 
-[Link al sitio] (Link al sitio)
+[Link al sitio] (#Link al sitio)
 
-[Desarrolladores] (Desarrolladores)
+[Desarrolladores] (#Desarrolladores)
 
 
 *Horósocopo gamer es una pagína desarrollada con el fin de encontrar ese personaje del mundo de los videojuegos
