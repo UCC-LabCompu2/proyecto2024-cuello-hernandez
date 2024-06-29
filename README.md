@@ -10,7 +10,7 @@
 - [Desarrolladores](#Desarrolladores)
 
 
-*Horósocopo gamer es una pagína desarrollada con el fin de encontrar ese personaje del mundo de los videojuegos
+*Horósocopo gamer es una página desarrollada con el fin de encontrar ese personaje del mundo de los videojuegos
 que eres determinado por tu día y mes de nacimiento.*
 
 ## Funcionamiento de la página:
