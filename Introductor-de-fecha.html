@@ -25,11 +25,11 @@
     <div class="introductor">
 
         <label for="dia"> DÍA</label>
-        <input type="number" name="dia" id="dia" max="31" min="1" required="">
+        <input type="number" name="dia" id="dia" min="1" max="31" maxlength="2" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 2)" required="">
         <label for="mes"> MES</label>
-        <input type="number" name="mes" id="mes" max="12" min="1" required="">
+        <input type="number" name="mes" id="mes"  min="1" max="12" maxlength="2" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 2)" required="">
         <label for="año"> AÑO</label>
-        <input type="number" name="año" id="año" max="2024" min="1924" required="">
+        <input type="number" name="año" id="año"  min="1940" max="2024" maxlength="4" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 4)" required="">
         <div class="botond">
             <button  onclick="comprobarinputs()">CONTINUAR
             </button>
